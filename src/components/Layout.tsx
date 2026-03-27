@@ -31,7 +31,7 @@ export const Navbar = () => {
 
   return (
     <nav className={cn(
-      "fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-full max-w-7xl px-4 sm:px-6 lg:px-8",
+      "fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-full max-w-screen-2xl px-4 sm:px-6 lg:px-8",
       scrolled ? "top-4" : "top-0 py-4"
     )}>
       <div className={cn(
@@ -158,7 +158,7 @@ export const Footer = () => {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-primary/5 blur-[150px] -z-10 rounded-full animate-pulse-glow" />
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-500/5 blur-[120px] -z-10 rounded-full" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 mb-20">
           <div className="col-span-1 md:col-span-12 lg:col-span-5">
             <Link to="/" className="flex items-center gap-3 mb-8 group inline-flex">

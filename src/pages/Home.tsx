@@ -103,7 +103,7 @@ const Home = () => {
         {/* Hero Section */}
         <section className="relative min-h-screen flex flex-col justify-center pt-40 md:pt-48 pb-24 overflow-hidden">
           <Hero3D />
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 mt-12 md:mt-0">
+          <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 mt-12 md:mt-0">
             <div className="max-w-3xl">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -146,7 +146,7 @@ const Home = () => {
 
         {/* SEO Content Section */}
         <section className="py-24 bg-background relative overflow-hidden border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -207,7 +207,7 @@ const Home = () => {
           {/* Cyber Grid Background */}
           <div className="absolute inset-0 bg-[linear-gradient(rgba(6,182,212,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(6,182,212,0.03)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,#000_10%,transparent_100%)]" />
 
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
@@ -296,7 +296,7 @@ const Home = () => {
         <section className="py-32 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-white/5 to-background" />
           
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -348,7 +348,7 @@ const Home = () => {
         <section className="py-32 relative overflow-hidden bg-background border-t border-white/5">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[150px] -z-10" />
           
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -404,7 +404,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-[150px] -z-10 animate-pulse-glow" />
           
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
